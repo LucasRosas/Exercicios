@@ -7,7 +7,6 @@ function firstNonRepeatingCharacter(vet) {
             repetem = repetem.concat(vet[i])
             quantidade = quantidade.concat(1)
         } else {
-            // tudo bem percorrer repetem, já que possui no máximo 26 elementos
             quantidade[repetem.indexOf(vet[i])]++
         }
     }
